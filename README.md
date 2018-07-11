@@ -9,7 +9,15 @@ We use Keras with Tensorflow as the backend.
 - Keras version: '2.2.0'
 - Tensorflow version: '1.8.0' 
 
-# Example to run the codes.
+## Example to run the codes.
 
 Build dataset: After download the dataset, it should be put into the "dataset" dirctory.
-``
+```
+cd dataset
+python data_handler.py
+```
+
+Run LSTM:
+ ```
+ python lstm.py
+ ```
